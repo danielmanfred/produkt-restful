@@ -2,10 +2,20 @@
   "name": "produkt-restful",
   "version": "1.0.0",
   "description": "Sistema de Cadastro de Produtos",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --report spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielmanfred/produkt-restful.git"
   },
   "author": "Daniel Manfred",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4",
+    "request": "^2.87.0"
+  }
 }
