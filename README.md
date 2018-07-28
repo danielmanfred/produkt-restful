@@ -13,4 +13,5 @@
 
 ## Testing the app in the Postman
 
-
+###Route 
+/api/products
