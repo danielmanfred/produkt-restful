@@ -11,7 +11,12 @@
 - Visual Studio Code
 - Postman
 
-## Testing the app in the Postman
+## Routes of the API
 
-###Route 
-/api/products
+ROUTE                     |     HTTP(Verbs)   |      Description      | 
+------------------------- | ----------------- | --------------------- | 
+/api/products             |       GET         | Select all products   | 
+/api/products             |       POST        | Create Product        | 
+/api/products/:id         |       GET         | Select by Id          | 
+/api/products/:id         |       PUT         | Update by Id          |    
+/api/products/:id         |       DELETE      | Delete by Id          |
